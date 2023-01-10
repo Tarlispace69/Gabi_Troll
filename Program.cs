@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using System;
+using System.Threading;
 
 namespace Class_Excersizes
 {
@@ -14,7 +15,7 @@ namespace Class_Excersizes
             Console.WriteLine("Plese enter your name:");
             name = Console.ReadLine();
 
-            if (name == "gabi" || name == "Gabi");
+            if (name == "shalev" || name == "Shalev");
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("Fuck you!");
